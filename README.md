@@ -57,3 +57,11 @@ python3 test_claims.py
 By following these instructions, you can set up, run, and test the services to ensure the claim processing and data publishing to RabbitMQ are working as expected.
 
 ```
+
+```bash
+"Install test dependencies and run tests for payment:
+Install the requirements:
+pip install -r requirements.txt
+Run the tests:  python3 test.py
+By following these instructions, you can set up, run, and test the services to ensure the payment processing and data consumption from RabbitMQ are working as expected."
+```
