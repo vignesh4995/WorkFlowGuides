@@ -38,6 +38,20 @@ cd ..
 docker ps
 ```
 
+## Access Information
+
+- **API Gateway**:
+  - URL: `http://0.0.0.0:8000` or `http://localhost:8000`
+  
+- **API Documentation**:
+  - URL: `http://localhost:8000/docs#/`
+  
+- **RabbitMQ Management**:
+  - URL: `http://localhost:15672/#/`
+  - Credentials: 
+    - **Username**: `guest`
+    - **Password**: `guest`
+
 # Test Instructions Using `venv` (built into Python 3.3+)
 
 ## Create a virtual environment:
