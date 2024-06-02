@@ -38,29 +38,22 @@ cd ..
 docker ps
 ```
 
-Test Instructions
-Using venv (built into Python 3.3+):
-Create a virtual environment:
-bash
-Copy code
+# Test Instructions Using `venv` (built into Python 3.3+)
+
+## Create a virtual environment:
+```bash
 python -m venv env_name
-macOS/Linux:
-bash
-Copy code
-source env_name/bin/activate
-Install test dependencies and run tests for claim_process:
-Go to the test directory of claim_process:
-bash
-Copy code
+macOS/Linux: source env_name/bin/activate
+
+Install test dependencies and run tests for claim_process: Go to the test directory of claim_process:
+
 cd claim_process/test
 Install the requirements:
-bash
-Copy code
 pip install -r requirements.txt
+
 Run the tests:
-bash
-Copy code
 python3 test_claims.py
+
 By following these instructions, you can set up, run, and test the services to ensure the claim processing and data publishing to RabbitMQ are working as expected.
 
-
+```
